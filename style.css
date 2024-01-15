@@ -24,7 +24,9 @@ body {
 }
 
 .container {
-    padding: 12px 8%;
+    
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 nav {
@@ -35,7 +37,7 @@ nav {
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
 }
 
 nav ul li {
@@ -67,12 +69,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 20%;
-    font-size: 30px;
-}
-
-.header-text {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 18%;
 }
 
@@ -108,9 +105,9 @@ nav ul li a:hover::after {
 }
 
 .sub-title {
-    font-size: 60px;
+    font-size: 40px;
     font-width: 600;
-    color: #fff;
+    color: #ff004f;
 }
 
 .tab-titles {
@@ -247,6 +244,7 @@ nav ul li a:hover::after {
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    border: 1px outset  #ff004f;
 }
 
 .layer h3 {
